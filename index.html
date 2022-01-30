@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ride On Wheels</title>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="icon" href="favicon.ico">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Acme&family=Antic+Slab&family=Anton&family=Cairo&family=Cinzel&family=Comfortaa:wght@300&family=Domine:wght@600&family=Libre+Baskerville:wght@700&family=Mochiy+Pop+P+One&family=Open+Sans+Condensed:wght@300&family=Playfair+Display&family=Quicksand:wght@300&family=Quintessential&family=Work+Sans:ital,wght@1,300&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+  <!--Font icons-->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all/js"></script>
+  <!--Font icons-->
+
+
+  <script type="text/javascript">
+    function myFunction() {
+      // Get the checkbox
+      var checkBox = document.getElementById("myCheck");
+      // Get the output text
+      var text = document.getElementById("text");
+
+      // If the checkbox is checked, display the output text
+      if (checkBox.checked == true) {
+        text.style.display = "block";
+      } else {
+        text.style.display = "none";
+      }
+    }
+  </script>
+
+<style>
+
+
+
+/*_____________title bar(first container)____________*/
+
+
+body{
+
+  margin: 0;
+}
+
+
+.navbarSupportedContent{
+  color: blue;
+}
+
+.navbar-brand{
+
+  font-family: 'Cinzel', serif;
+  font-size: 2rem;
+}
+
+.nav-item{
+ position: sticky;
+  font-size: 1.2rem;
+  font-family: 'Antic Slab', serif;
+}
+
+.navbar{
+  padding: 10px 140px 10px;
+  background-color: #35858B;
+}
+
+
+/*_____________title bar(first container)____________*/
+
+
+
+/*______________Second Container__________________________*/
+
+
+body,
+html {
+  height: 100%;
+}
+
+.img {
+  position: relative;
+  background-image: url("https://image.freepik.com/free-vector/happy-couple-tourists-with-backpacks-camping-stuff-hitchhiking-road-thumbing-yellow-car_74855-14043.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  filter: blur(4px);
+}
+
+
+h1{
+  color: #506D84;
+  font-family: 'Playfair Display', sans-serif;
+  width: 100%;
+  font-size: 4rem;
+}
+
+.second-cont-2{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+
+  width: 100%;
+
+}
+
+
+
+@media(max-width: 1028px){
+  .second-cont-2{
+    font-size: 2.5rem;
+  }
+}
+
+.second-cont-4{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  top: 68%;
+  width: 100%;
+}
+
+@media(max-width: 1028px){
+  .second-cont-4{
+    font-size: 2.5rem;
+  }
+
+}
+
+.second-cont-5{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  top: 54%;
+  width: 100%;
+}
+
+@media(max-width: 1028px){
+  .second-cont-5{
+    font-size: 2.5rem;
+  }
+
+}
+
+.second-cont-3{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  top: 78%;
+  width: 100%;
+}
+
+
+
+@media(max-width: 1028px){
+  .second-cont-3{
+    font-size: 2.5rem;
+  }
+
+}
+
+.second-cont{
+
+  text-align: center;
+  position: absolute;
+  top: 18%;
+}
+
+.btn {
+  background: #34cbd9;
+  background-image: -webkit-linear-gradient(top, #34cbd9, #2980b9);
+  background-image: -moz-linear-gradient(top, #34cbd9, #2980b9);
+  background-image: -ms-linear-gradient(top, #34cbd9, #2980b9);
+  background-image: -o-linear-gradient(top, #34cbd9, #2980b9);
+  background-image: linear-gradient(to bottom, #34cbd9, #2980b9);
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: Georgia;
+  color: #156375;
+  font-size: 22px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background: #7af1f5;
+  background-image: -webkit-linear-gradient(top, #7af1f5, #3498db);
+  background-image: -moz-linear-gradient(top, #7af1f5, #3498db);
+  background-image: -ms-linear-gradient(top, #7af1f5, #3498db);
+  background-image: -o-linear-gradient(top, #7af1f5, #3498db);
+  background-image: linear-gradient(to bottom, #7af1f5, #3498db);
+  text-decoration: none;
+}
+
+
+/*________________________________________Third Container(Covid Rules)_____________________________________________________*/
+
+
+.safety{
+  padding-right: 20px;
+  height: 80px;
+  width: 80px;
+}
+.p2p{
+  font-family: 'Quintessential', cursive;
+  padding-top: 30px;
+  width: 90%;
+
+}
+
+
+
+.icond{
+background-color: #CFFFDC;
+padding: 30px;
+}
+
+.row{
+  margin: 0;
+text-align: center;
+  margin-bottom: 30px;
+}
+
+/*________________________________________Third Container(Covid Rules)_____________________________________________________*/
+
+
+/*______________Second Container__________________________*/
+
+
+/* footer section */
+#footer{
+  color: #086E7D;
+  font-family: 'Playfair Display', serif;;
+  background-color: #fff;
+  text-align: center;
+  padding: 0% 15%;
+  background-color: #A3E4DB;
+}
+
+
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+  <!--title bar(first container)-->
+
+  <section id="title">
+
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <a class="navbar-brand" href="">Ride On Wheels</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">Quick Ride</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cta">Help</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contct">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  </section>
+
+  <!--title bar(first container)-->
+
+
+  <!--Second Container-->
+
+
+  <div class="img">
+
+  </div>
+  <div>
+
+
+    <div class="second-cont">
+      <h1>Your Trip</h1>
+    </div>
+    <div class="second-cont-2">
+      <label for="browser"><b>Start Point :</b></label>
+      <input list="browsers" name="browser" id="browser" placeholder="Enter City Name" required>
+
+      <datalist id="browsers">
+        <option value="HYDERABAD">
+        <option value="VIJAYAWADA">
+        <option value="VISAKHAPATNAM">
+        <option value="KAKINADA">
+        <option value="TIRUPATHI">
+      </datalist>
+    </div>
+    <div class="second-cont-5">
+
+
+
+      <label for="browser"><b>End Point :</b></label>
+      <input list="browsers" name="browser" id="browser" placeholder="Enter City Name" required>
+
+      <datalist id="browsers">
+        <option value="HYDERABAD">
+        <option value="VIJAYAWADA">
+        <option value="VISAKHAPATNAM">
+        <option value="KAKINADA">
+        <option value="TIRUPATHI">
+      </datalist>
+
+    </div>
+    <div class="second-cont-4">
+      <label for="day"><b>Date :</b> </label>
+      <input type="date" id="tripday" name="" placeholder="DD/MM/YYYY">
+
+    </div>
+
+
+
+
+    <br />
+    <div class="second-cont-3">
+      <div class="chekbx">
+        <input type="checkbox" id="myCheck" onclick="myFunction()">
+        <b>Check the details correctly and click on check box.</b>
+        <p id="text" style="display:none"> <a href="#"><button class="btn">CHECK</button></a> </p>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+  <!--Third Container(Covid Rules)-->
+
+
+  <div class="row">
+
+    <div class="col-lg-2 col-sm-6 col-md-4 icond">
+      <img class="safety" src="https://cdn-icons.flaticon.com/png/128/2781/premium/2781395.png?token=exp=1643380620~hmac=9d4f54f68675923e07ebafa00c493898" alt="">
+      <p>
+        All our staff are fully vaccinated
+      </p>
+    </div>
+
+    <div class="col-lg-2 col-sm-6 col-md-4 icond">
+      <img class="safety" src="https://cdn-icons.flaticon.com/png/128/4956/premium/4956745.png?token=exp=1643382747~hmac=e93de2d372ad11c7856724388e2d5d26" alt="">
+      <p class="p2p">
+        Only vaccinated persons are allowed
+      </p>
+    </div>
+
+    <div class="col-lg-2 col-sm-6 col-md-4 icond">
+      <img class="safety" src="https://cdn-icons.flaticon.com/png/128/3150/premium/3150895.png?token=exp=1643380620~hmac=6c726ea277bb0dda83d9fd18fc719ed0" alt="">
+      <p class="p2p">
+        Plese maitian social distaince in the crowd
+      </p>
+    </div>
+
+    <div class="col-lg-2 col-sm-6 col-md-4 icond">
+      <img class="safety" src="https://cdn-icons-png.flaticon.com/128/2750/2750824.png" alt="">
+      <p class="p2p">
+        Wearing mask is permanent from now
+      </p>
+    </div>
+
+    <div class="col-lg-2 col-sm-6 col-md-4 icond">
+      <img class="safety" src="https://cdn-icons-png.flaticon.com/128/2932/2932299.png" alt="">
+      <p class="p2p">
+        Use sanitisers and handwashes thoroughly
+      </p>
+    </div>
+
+    <div class="col-lg-2 col-sm-6 col-md-4 icond">
+      <img class="safety" src="https://cdn-icons.flaticon.com/png/128/6037/premium/6037413.png?token=exp=1643381854~hmac=88ef90b2192c0c51b9870a94fec7ef2b" alt="">
+      <p class="p2p">Helping hands are never forgettable</p>
+    </div>
+
+  </div>
+
+  <!--Third Container(Covid Rules)-->
+
+
+
+  <!--Second Container-->
+
+
+  <footer id="footer">
+    <a href="https://www.facebook.com/sanjeevsai.sasank"><i class="social-icon fab fa-facebook"></i></a>&nbsp&nbsp&nbsp
+    <a href="https://instagram.com/its._.sanjeev?utm_medium=copy_link"><i class="social-icon fab fa-instagram"></i></a>&nbsp&nbsp&nbsp
+    <a href="https://twitter.com/saisasank09"><i class="social-icon fab fa-twitter"></i></a>&nbsp&nbsp&nbsp
+    <a href="https://github.com/sai-sasank09"><i class="social-icon fab fa-github"> </i></a>&nbsp&nbsp&nbsp
+    <a id="contct" href="https://web.whatsapp.com/7416320648"><i class="fa fa-phone" aria-hidden="true"></i></a>
+
+
+    <p>© Copyright Ride On Wheels</p>
+    <p><b>By Our Team</b></p>
+
+  </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>
